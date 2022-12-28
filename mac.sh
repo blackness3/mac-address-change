@@ -3,4 +3,4 @@ echo $mac
 sudo ifconfig eth0 down
 sudo ifconfig eth0 hw ether $mac
 sudo ifconfig eth0 up
-sudo dhclient
+sudo dhclient &
